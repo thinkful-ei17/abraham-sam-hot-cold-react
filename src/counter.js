@@ -4,7 +4,7 @@ import './counter.css';
 export default function Counter(props){
   return(
     <div className="counter">
-      <h3>Guess #{props.counter}</h3>
+      Guess #<span className="count">{props.counter}</span>!
     </div>
   );
 }

@@ -1,19 +1,24 @@
 .input {
     height: 150px;
     display: flex;
-    flex-direction: column;
+		flex-direction: column;
+		box-sizing: content-box;
+		width: 300px;
+		margin: 0 auto;
 }
 
 .input .guess-field,
 .input .guess-button{
-  height: 40px;
-  width: 80%;
-  margin: 0 auto 30px;
+	box-sizing: border-box;
+	height: 50px;
+  width: 300px;
+  margin-bottom: 30px;
   text-align: center;
   font-weight: bolder;
   border-radius: 8px;
   padding: 5px;
-  font-size: 400 11px;
+	font-size: 18px;
+	color: #95a5a6;
 }
 
 .guess-field{
@@ -23,6 +28,12 @@
 }
 
 .guess-button{
-  color: #95a5a6;
-  background-color: #1f253d;
+	background-color: #1f253d;
+	border: solid 1px #1f253d;
+	transition: background 1s ease-in-out;
+}
+
+.guess-button:hover{
+	background-color: #e64c65;
+	color: #fff;
 }
