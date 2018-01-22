@@ -1,4 +1,15 @@
 .log {
-    background-color: #11a8ab;
-    height: 75px;
+  background-color: #11a8ab;
+  list-style-type: none;
+  padding-top: 10px;
+  height: 75px;
+}
+
+li {
+  display: inline;
+  color: #fff;
+  background-color: #1a4e95;
+  padding: 5px;
+  margin: 5px 5px;
+  border-radius: 5px;
 }

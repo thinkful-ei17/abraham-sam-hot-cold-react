@@ -17,5 +17,5 @@ export default function Log(props){
 }
 
 Log.defaultProps = {
-  guesses: [50 ,25 ,12],
+  guesses: [],
 };
