@@ -1,4 +1,5 @@
 import React from 'react';
+import './counter.css';
 
 export default function Counter(props){
   return(

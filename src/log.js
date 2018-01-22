@@ -1,4 +1,5 @@
 import React from 'react';
+import './log.css';
 
 export default function Log(props){
     
@@ -9,7 +10,7 @@ export default function Log(props){
   );
 
   return(
-    <ul>
+    <ul className="log">
       {guesses}
     </ul>
   );

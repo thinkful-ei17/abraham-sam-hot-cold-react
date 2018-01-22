@@ -1,4 +1,5 @@
 import React from 'react';
+import './feedback.css';
 import Input from './input';
 import Counter from './counter';
 import Log from './log';
