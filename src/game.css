@@ -6,4 +6,18 @@
 
 .game h1 {
   text-align: center;
+  font-size: 48px;
+}
+
+.game-nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+.game-nav a {
+  margin-top: 10px;
+  font-size: 24px;
+  color: #fff;
+  font-weight: bolder;
+  text-decoration: none;
 }
