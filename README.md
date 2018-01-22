@@ -1,7 +1,7 @@
 Component List
 - [x]  Display Hot/Cold/Win (feedback.js) 
-- [ ] Input Form 
-- [ ] Guess Button 
+- [x] Input Form 
+- [x] Guess Button 
 - [ ] Guess Counter 
 - [ ] Guess Tracker 
 

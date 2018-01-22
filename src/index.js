@@ -4,5 +4,5 @@ import './index.css';
 import Game from './game';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<Game />, document.getElementById('root'));
+ReactDOM.render(<Game title="HOT or COLD" />, document.getElementById('root'));
 registerServiceWorker();
