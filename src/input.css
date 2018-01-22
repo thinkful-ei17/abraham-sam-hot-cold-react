@@ -4,8 +4,25 @@
     flex-direction: column;
 }
 
-.input input {
+.input .guess-field,
+.input .guess-button{
   height: 40px;
   width: 80%;
   margin: 0 auto 30px;
+  text-align: center;
+  font-weight: bolder;
+  border-radius: 8px;
+  padding: 5px;
+  font-size: 400 11px;
+}
+
+.guess-field{
+  background-color: #50597b;
+  color: #fff;
+  border: solid 1px #1f253d;
+}
+
+.guess-button{
+  color: #95a5a6;
+  background-color: #1f253d;
 }
